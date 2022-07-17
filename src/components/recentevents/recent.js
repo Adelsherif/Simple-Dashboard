@@ -30,7 +30,7 @@ class Recent extends Component{
         ]
        }
    render(){
-    let Orders = this.state.orders.map(order =>{
+    let Orders = this.state.order.length !== && this.state.orders.map(order =>{
         return(
         <div className='order' key={Math.random()}>
             <div className='name' style={{width:"30%"}}>
@@ -50,7 +50,7 @@ class Recent extends Component{
         </div>
         )
     })
-   let Customers = this.state.customers.map(customer =>{
+   let Customers = this.state.customers.length !== 0 && this.state.customers.map(customer =>{
     return(
     <div className='customer' key={Math.random()}>
         <div className='image'>
