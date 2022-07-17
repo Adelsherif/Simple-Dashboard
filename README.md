@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <br />
 <h3><a href="https://adelsherif.github.io/Simple-Dashboard/">Live</a></h3>
 <br />
-<img src="https://github.com/Adelsherif/Simple-Dashboard/new.jpg" alt="image" />
+<img src="https://github.com/Adelsherif/Simple-Dashboard/new.png" alt="image" />
 
 
 ## Available Scripts
