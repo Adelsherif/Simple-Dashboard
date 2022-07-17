@@ -45,7 +45,7 @@ class Links extends Component{
     console.log(this.state.links);
      let x=-1;    
      this.state.links =JSON.parse(localStorage.getItem("links"));
-     const DoLinks= this.state.links.length !== 0 && this.state.links.map(value => {
+     const DoLinks= this.state.links.length !== 0 && this.state.links.map(value => 
         x++;
         return(
         <div className='link' key={value.id}>
@@ -56,7 +56,7 @@ class Links extends Component{
                 </ul>
         </div>
         )
-    })
+    )
       return (
     <div className="links toggler" id='links'>
         <div className='inner'>
