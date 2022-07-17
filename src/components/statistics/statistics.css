@@ -1,0 +1,42 @@
+.statistics{
+    width: calc(100% -300px);
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.statistics .statis{
+     width: 20%;
+     display: flex;
+     justify-content: space-around;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     padding:15px 5px;
+     border-radius: 15px;
+     z-index: 111;
+     margin-bottom: 20px;
+}
+.statistics .statis:hover{background-color: var(--main-color);}
+.statistics .statis .text h1{
+ color: var(--main-color);}
+.statistics .statis .text p{
+    font-size: 14px;
+    color: grey;
+}
+.statistics .statis .iconbody{
+    font-size: 40px;
+    color: rgb(169, 163, 163);
+}
+.statistics .statis:hover h1  {color: white !important;}
+.statistics .statis:hover p  {color: white !important;}
+.statistics .statis:hover .iconbody  {color: white !important;}
+@media (max-width:1200px){ .statistics .statis{width: 30%; }}
+@media (max-width:992px){.statistics .statis{ width: 45%; }}
+ @media (max-width:768px){
+    .statistics{ margin-left: 0; }
+    .statistics .statis{
+         width: 90%;
+         padding: 25px 5px;
+         z-index: 0;
+         }
+ }

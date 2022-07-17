@@ -1,0 +1,30 @@
+.content{
+    width: calc(100% -300px);
+    margin-left: 300px;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 2;
+}
+.content img{ width: 250px;}
+.content h1{
+   font-size: 100px;
+   line-height: 1;
+   width: 70%;
+   margin:0 auto; 
+}
+.content p{
+     font-size: 70px;
+     color: var(--main-color);
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media (max-width:992px){.content h1{font-size: 60px; }}
+@media (max-width:768px){
+    .content{
+        width: 100%;
+        margin-left: 0;
+    }
+    .content h1{
+        font-size: 40px;
+        width: 90%;
+    }
+}

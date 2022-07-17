@@ -1,0 +1,62 @@
+.header{
+    width: calc(100% -300px);
+    position: relative;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.header .bar .baricon {
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1000;
+    display: none;
+}
+.header .bar .brandicon{
+    font-size: 30px;
+    color: var(--main-color);
+}
+.header .form input{
+    padding: 5px;
+   width: 90%;
+    padding-left: 30px;
+    border-radius: 20px;
+    border:2px solid rgb(174, 171, 171);
+    outline: none;
+}
+.header .form{
+   position: relative;
+   width: 40%;
+}
+.header .form .searchicon{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    font-size: 16px;
+    color: grey;
+}
+.header .admin img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.headwidth{
+    margin-left: 0;
+    transition: all 1s;
+}
+@media (max-width:768px){
+    .header{
+        width: 100%;
+        margin-left: 0;
+ }
+.header .form{ width: 60%;}
+.header .form input{ width: 100%;}
+.header .bar .brandicon{ display: none;}
+.header .bar{z-index: 11;}
+.header .bar .baricon { display: block;}
+}
+.toggle{
+    background-color: black;
+    color: white;
+}
